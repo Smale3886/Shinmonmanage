@@ -16,7 +16,7 @@ from telegram.ext import (
 
 # --- CONFIGURATION ---
 # Apni token yahan dalein
-BOT_TOKEN = "7974658489:AAFCdZtki5NVOn7ez9UukXcCSYtpvF2fnVg"
+BOT_TOKEN = "7996458402:AAFrDaGTLqNGSkiotkrgwrjy9qBl5fJjR1Q"
 
 # Multiple admin IDs (Super Admins)
 ADMIN_IDS = [7857898495]
