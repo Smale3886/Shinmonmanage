@@ -13,6 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the bot's code into the container
 COPY . .
 
-# Command to run the bot
-CMD ["python", "main.py"]
+# Expose a port for Back4App health check
+EXPOSE 8080
 
+# Command to run the bot
+CMD ["python", "h.py"]
